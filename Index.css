@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    background-color: black;
+    background-size: cover;
+}
+
+.myprofile {
+    background-image: url("https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg");
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-size: cover;
+    border: gray 1px solid;
+
+
+
+}
+
+
+
+
+.myphoto {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.myname {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-family: serif;
+
+}
+
+.mymail {
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.numb-1 {
+    color: white;
+    text-align: left;
+    margin: 15px;
+    font-weight: bold;
+
+
+}
+
+.mypngs {
+
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons:hover {
+    color: white;
+    font-size: 30px;
+}
+
+.icons {
+    color: white;
+}
+
+.mymail {
+    text-align: center;
+    margin: 2px;
+}
+
+#wtbutton {
+    text-align: center;
+
+}
+
+/*.mybutton {
+    background-color: rgb(4, 112, 46);
+    color: white;
+    border-radius: 20px;
+    border-color: gray;
+    font-size: small;
+}
+*/
+#myabout {
+    border-radius: 30px;
+    font-size: 12PX;
+    margin: 10px;
+    color: white;
+    font-family: "Playfair Display";
+
+}
+
+.wtcolor {
+    color: white;
+    padding: 20px;
+    font-family: "Playfair Display SC";
+}
+
+.para-1 {
+    color: rgb(156, 156, 154);
+    padding: 20px;
+    font-family: "caveat";
+    font-weight: bold;
+}
+
+
+
+.Education {
+    padding: 12px;
+    color: white;
+    font-family: "Playfair Display SC";
+}
+
+.Education-1 {
+    padding: 20px;
+    color: white;
+    margin: 2px;
+    font-family: "roboto";
+
+}
+
+.btn-success:hover {
+    background-color: red;
+    border-radius: 30px;
+
+}
+
+.btn-success {
+
+    border-radius: 30px;
+
+}
+
+@media screen and (min-width: 992px) {
+    .myprofile {
+        position: fixed;
+
+    }
+  }
