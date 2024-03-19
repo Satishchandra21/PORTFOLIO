@@ -97,7 +97,7 @@ a {
     font-size: 12PX;
     margin: 10px;
     color: white;
-    font-family: "Playfair Display";
+    font-family: "roboto";
 
 }
 
@@ -140,6 +140,34 @@ a {
 
     border-radius: 30px;
 
+}
+
+.skills {
+    padding: 20px 0 10px;
+    text-transform: uppercase;
+}
+
+.skills h1 {
+    font-family: "Playfair Display SC";
+}
+
+.skills li {
+    font-size: 20px;
+    padding: 12px 0;
+}
+
+.contact {
+    padding: 20px 0 10px;
+}
+
+.contact h1 {
+    font-family: "Playfair Display SC";
+}
+
+.contact p {
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
 }
 
 @media screen and (min-width: 992px) {
